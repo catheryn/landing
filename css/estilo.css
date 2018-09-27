@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.limpiar {
+  clear: both;
+}
+
+
+
+/* HEADER */
+header {
+  background-color: #333;
+  background-image: url(../images/bg.jpeg);
+  height: 500px;
+}
+
+.contenido_header {
+  padding-top: 50px;
+  width: 70%;
+  margin: auto;
+  color: #fff;
+}
+
+.logo {
+  float:left;
+  display: inline;
+}
+
+.logo img {
+  width: 170px;
+}
+
+nav {
+  float: right;
+  color: #fff;
+  display: inline;
+}
+
+ul.menu_principal li {
+  display: inline;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 14px;
+  color: #898989;
+}
+
+.contenido_header_texto {
+  text-align: center;
+  color: #fff;
+  padding-top: 40px;}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+button.comienza, button.mas_info, button.boton_inscribete {
+  padding: 10px 15px;
+  border-radius: 2px;
+  border: 0px;
+  font-size: 13px;
+  color: #fff;
+  cursor: pointer;
+}
+
+button.comienza, button.boton_inscribete {
+  background-color: #367bb5;
+}
+
+button.comienza:hover, button.boton_inscribete:hover {
+  background-color: #316990;
+}
+
+button.mas_info {
+  background-color: #5eb65f;
+}
+
+button.mas_info:hover {
+  background-color: #57985b;
+}
+
+
+p.bajada_presentacion {
+  padding-top: 30px;
+}
+/* COMUNES SECCIONES */
+section.primera_seccion, section.segunda_seccion {
+  text-align: center;
+  padding-top: 70px;
+}
+
+.contenido_primera_seccion, .contenido_segunda_seccion, .contenido_footer {
+  width: 70%;
+  margin: auto;
+}
+
+/* PRIMERA SECCION */
+img.grupo_personas {
+  width: 40%;
+}
+
+section.primera_seccion p {
+  padding-bottom: 40px;
+}
+
+/* SEGUNDA SECCION */
+section.segunda_seccion {
+  background-color: #eceff2;
+  border-top: 1px solid #dedede;
+  border-bottom: 1px solid #dedede;
+  padding-bottom: 70px;
+}
+
+section.segunda_seccion p {
+  margin-bottom: 20px;
+}
+
+.texto_post_boton {
+  font-size: 19px;
+  padding-top: 20px;
+}
+
+
+/* FOOTER */
+.contenido_footer {
+  padding-top: 50px;
+  height: calc(110px + 50px);
+}
+.columna_uno, .columna_dos {
+  width: 50%;
+  float: left;
+  display: block;
+}
+
+.franja_negra {
+  clear: both;
+  background-color: #212121;
+  color: #fff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+ul.datos_footer, ul.suscripcion {
+  list-style: none;
+  font-size: 14px;
+}
+
+ul.datos_footer li:first-child, ul.suscripcion li:first-child {
+  font-size: 18px;
+}
+
+ul.datos_footer li:last-child {
+  padding-top: 10px;
+}
+
+.formulario {
+  padding-top: 10px;
+}
+
+input.input_mail {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 2px;
+  border: 1px solid #dedede;
+  width: 170px;
+  padding-left: 10px;
+}
+
+button.enviar {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 2px;
+  border: 1px solid #dedede;
+  background-color: #fff;
+  padding-left: 15px;
+  padding-right: 15px;
+  cursor: pointer;
+}
+
+button.enviar:hover {
+  background-color: #333;
+  color: #fff;
+  border:1px solid #333;
+}
+
+.texto_franja_negra {
+  width: 80%;
+  margin: auto;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+}
